@@ -1,0 +1,44 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  word-spacing: 2px;
+}
+:root {
+  --primary: rgb(130, 224, 255);
+}
+
+.button {
+  padding: 9px 21px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button--style-one {
+  background-color: var(--primary);
+  color: #252525;
+  border: 2px solid var(--primary);
+}
+
+.button--style-two {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  transition: all 200ms ease-out;
+}
+
+.button--medium-size {
+  padding: 9px 21px;
+  font-size: 21px;
+}
+.button--large-size {
+  padding: 13px 27px;
+  font-size: 23px;
+}
+
+.button--medium-size:hover,
+.button--large-size:hover {
+  background: var(--primary);
+  color: #252525;
+  transition: all 200ms ease-out;
+}
