@@ -5,7 +5,7 @@
   word-spacing: 2px;
 }
 .navbar {
-  background: linear-gradient(90deg, rgb(50, 50, 50) 0%, rgb(31, 25, 25) 90%);
+  background: linear-gradient(90deg, rgb(78, 77, 77) 0%, rgb(0, 1, 69) 70%);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -62,10 +62,14 @@
   width: 70vw;
   justify-content: end;
   text-align: center;
+  margin-right: 1rem;
 }
 
 .active > .nav-selection {
   height: 75px;
+}
+.button-support {
+  margin-left: 2rem;
 }
 
 .nav-menu-links {
@@ -78,8 +82,8 @@
 }
 
 .nav-menu-links:hover {
-  color: rgb(130, 224, 255);
-  transition: all 150ms ease-in-out;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid rgb(130, 224, 255);
 }
 
 .fa-bars {
