@@ -56,38 +56,47 @@ function Navbar() {
             </li>
             <li className="nav-selection">
               <Link
-                to="/what-we-offer"
+                to="/who-we-are"
                 className="nav-menu-links"
                 onClick={collapseMobileMenu}
               >
-                WHAT WE OFFER
+                WHO WE ARE
               </Link>
             </li>
             <li className="nav-selection">
               <Link
-                to="/about-us"
+                to="/what-we-do"
                 className="nav-menu-links"
                 onClick={collapseMobileMenu}
               >
-                ABOUT US
+                WHAT WE DO
               </Link>
             </li>
             <li className="nav-selection">
               <Link
-                to="/get-in-touch"
+                to="/our-campaigns"
                 className="nav-menu-links"
                 onClick={collapseMobileMenu}
               >
-                GET IN TOUCH
+                OUR CAMPAIGNS
               </Link>
             </li>
             <li className="nav-selection">
               <Link
-                to="/sign-up"
+                to="/take-action"
+                className="nav-menu-links"
+                onClick={collapseMobileMenu}
+              >
+                TAKE ACTION
+              </Link>
+            </li>
+            <li className="nav-selection">
+              <Link
+                to="/support"
                 className="nav-menu-links-mobile"
                 onClick={collapseMobileMenu}
               >
-                SIGN UP
+                SUPPORT
               </Link>
             </li>
           </ul>
@@ -96,7 +105,7 @@ function Navbar() {
               buttonStyle="button--style-two"
               buttonSize="button--medium-size"
             >
-              SIGN UP
+              SUPPORT
             </Button>
           )}
         </div>
