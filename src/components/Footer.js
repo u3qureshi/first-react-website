@@ -7,7 +7,10 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="report-container">
-        <img src="/images/polar-bear-cub.jpg" alt="Polar Bear Cub" />
+        <img
+          src={require("./images/polar-bear-cub.jpg")}
+          alt="Polar Bear Cub"
+        />
         <h2>View our 2020 Annual Report</h2>
       </div>
       <div className="footer-signup">
@@ -110,7 +113,7 @@ function Footer() {
         <div className="sponsor-section">
           <img
             className="sponsor-logo-img"
-            src="/images/imagine-canada-logo.png"
+            src={require("./images/imagine-canada-logo.png")}
             alt="Sponsor logo"
           />
         </div>
