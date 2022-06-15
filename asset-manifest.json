@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/first-react-website/static/css/main.ea2d7ba8.css",
-    "main.js": "/first-react-website/static/js/main.dc511364.js",
+    "main.js": "/first-react-website/static/js/main.dbbcb1ea.js",
     "static/media/ocean-bi.jpg": "/first-react-website/static/media/ocean-bi.cb762ee60b1beb1ee1d0.jpg",
     "static/media/earth-space-bi.webp": "/first-react-website/static/media/earth-space-bi.36d409ae836f277ac87b.webp",
     "index.html": "/first-react-website/index.html",
     "main.ea2d7ba8.css.map": "/first-react-website/static/css/main.ea2d7ba8.css.map",
-    "main.dc511364.js.map": "/first-react-website/static/js/main.dc511364.js.map"
+    "main.dbbcb1ea.js.map": "/first-react-website/static/js/main.dbbcb1ea.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2d7ba8.css",
-    "static/js/main.dc511364.js"
+    "static/js/main.dbbcb1ea.js"
   ]
 }
