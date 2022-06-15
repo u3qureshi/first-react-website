@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/first-react-website/static/css/main.ea2d7ba8.css",
-    "main.js": "/first-react-website/static/js/main.ea90ab80.js",
+    "main.js": "/first-react-website/static/js/main.44925e02.js",
+    "static/media/small-boat.jpg": "/first-react-website/static/media/small-boat.923d3ee0a1e96a3320c6.jpg",
+    "static/media/marine-fish-bi.jpg": "/first-react-website/static/media/marine-fish-bi.f9a922d8b0c1e4140363.jpg",
     "static/media/ocean-bi.jpg": "/first-react-website/static/media/ocean-bi.cb762ee60b1beb1ee1d0.jpg",
+    "static/media/seafood.webp": "/first-react-website/static/media/seafood.39e9e334e8d9e621e05b.webp",
+    "static/media/fishing-boat.jpg": "/first-react-website/static/media/fishing-boat.6b2d4fb2ca7a1ee2c7fb.jpg",
     "static/media/polar-bear-cub.jpg": "/first-react-website/static/media/polar-bear-cub.d7debe1b2bac7e53d5cb.jpg",
     "static/media/earth-space-bi.webp": "/first-react-website/static/media/earth-space-bi.36d409ae836f277ac87b.webp",
+    "static/media/ocean-plastic.jpg": "/first-react-website/static/media/ocean-plastic.e29416933685879c26ee.jpg",
     "static/media/imagine-canada-logo.png": "/first-react-website/static/media/imagine-canada-logo.bc5c99cd924a3ed98f63.png",
     "index.html": "/first-react-website/index.html",
     "main.ea2d7ba8.css.map": "/first-react-website/static/css/main.ea2d7ba8.css.map",
-    "main.ea90ab80.js.map": "/first-react-website/static/js/main.ea90ab80.js.map"
+    "main.44925e02.js.map": "/first-react-website/static/js/main.44925e02.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2d7ba8.css",
-    "static/js/main.ea90ab80.js"
+    "static/js/main.44925e02.js"
   ]
 }
