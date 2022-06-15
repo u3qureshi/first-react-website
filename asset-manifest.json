@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/u3qureshi/first-react-website/static/css/main.af41f5c6.css",
+    "main.js": "/u3qureshi/first-react-website/static/js/main.fb653f19.js",
+    "static/media/ocean-bi.jpg": "/u3qureshi/first-react-website/static/media/ocean-bi.cb762ee60b1beb1ee1d0.jpg",
+    "static/media/earth-space-bi.webp": "/u3qureshi/first-react-website/static/media/earth-space-bi.36d409ae836f277ac87b.webp",
+    "index.html": "/u3qureshi/first-react-website/index.html",
+    "main.af41f5c6.css.map": "/u3qureshi/first-react-website/static/css/main.af41f5c6.css.map",
+    "main.fb653f19.js.map": "/u3qureshi/first-react-website/static/js/main.fb653f19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af41f5c6.css",
+    "static/js/main.fb653f19.js"
+  ]
+}
