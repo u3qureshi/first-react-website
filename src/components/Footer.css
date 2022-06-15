@@ -130,6 +130,13 @@
   color: lightblue;
   transition: all 150ms ease;
 }
+.sponsor-section img {
+  position: inherit;
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 1012px) {
   .footer-container {
     display: flex;
@@ -140,15 +147,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .footer-social-media {
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 2em;
+    font-size: 1.5rem;
   }
   .footer-link-unit {
     flex-direction: column;
     width: 50vw;
     padding-left: 20%;
+  }
+  .report-container {
+    align-self: center;
+  }
+  .footer-signup-text {
+    width: 70vw;
+  }
+  .donate-section p {
+    width: 70vw;
+  }
+  .sponsor-section img {
+    position: inherit;
+    align-self: center;
+    width: 50vw;
+    height: auto;
   }
 }

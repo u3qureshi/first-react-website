@@ -28,6 +28,7 @@ function Footer() {
             <Button
               buttonStyle={"button--style-two"}
               buttonSize={"button--medium-size"}
+              link=""
             >
               JOIN US
             </Button>
@@ -54,21 +55,6 @@ function Footer() {
         </Button>
       </div>
       <div className="footer-links-section">
-        <div className="footer-link-unit">
-          <h2>About Us</h2>
-          <Link to="/">Mission</Link>
-          <br />
-          <Link to="/">Team</Link>
-          <br />
-          <Link to="/">Partners</Link>
-          <br />
-          <Link to="/">Work with Us</Link>
-          <br />
-          <Link to="/">Diversity and Inclusion</Link>
-          <br />
-          <Link to="/">Contact Us</Link>
-          <br />
-        </div>
         <div className="footer-link-unit">
           <h2>About Us</h2>
           <Link to="/">Mission</Link>
@@ -120,6 +106,13 @@ function Footer() {
           <br />
           <Link to="/">Donor Privacy Policy</Link>
           <br />
+        </div>
+        <div className="sponsor-section">
+          <img
+            className="sponsor-logo-img"
+            src="/images/imagine-canada-logo.png"
+            alt="Sponsor logo"
+          />
         </div>
         <div className="footer-social-media">
           <i class="fa-brands fa-instagram-square"></i>
