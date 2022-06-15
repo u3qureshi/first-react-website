@@ -17,6 +17,7 @@ function Hero() {
             className="buttons"
             buttonStyle={"button--style-two"}
             buttonSize={"button--large-size"}
+            link={"take-action"}
           >
             LET'S GET STARTED!
           </Button>
@@ -24,6 +25,7 @@ function Hero() {
             className="buttons"
             buttonStyle={"button--style-one"}
             buttonSize={"button--large-size"}
+            link="who-we-are"
           >
             WATCH PROMO <i class="fa-solid fa-circle-play" />
           </Button>

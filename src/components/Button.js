@@ -13,6 +13,7 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
+  link,
 }) => {
   const checkButtonStyle = stylesArray.includes(buttonStyle)
     ? buttonStyle
@@ -21,9 +22,10 @@ export const Button = ({
   const checkButtonSize = sizesArray.includes(buttonSize)
     ? buttonSize
     : sizesArray[0];
+  link = "/" + link;
 
   return (
-    <Link to="/sign-up" className="button-mobile">
+    <Link to={link} className="button-mobile">
       <button
         className={`button ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

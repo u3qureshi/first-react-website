@@ -104,6 +104,7 @@ function Navbar() {
             <Button
               buttonStyle="button--style-two"
               buttonSize="button--medium-size"
+              link={"support"}
             >
               SUPPORT
             </Button>
