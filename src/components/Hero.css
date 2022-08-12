@@ -1,0 +1,96 @@
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.hero-container {
+  /* background: url("../../public/images/ocean-bi.jpg") center center/cover
+    no-repeat; */
+  background: url("../../public/images/ocean-bi.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero-content {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  text-align: center;
+  object-fit: contain;
+  width: 100%;
+}
+.hero-container h1 {
+  display: flex;
+  color: black;
+  font-size: 85px;
+  font-family: "Joan", sans-serif;
+  align-items: center;
+  text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white,
+    0.5px 0.5px 0 white;
+}
+
+.hero-container h3 {
+  margin-top: 9px;
+  color: white;
+  font-size: 45px;
+  font-family: "Joan", "Trebuchet MS", "Lucida Sans", sans-serif;
+  text-shadow: -0.3px -0.3px 0 black, 0.3px -0.3px 0 black, -0.3px 0.3px 0 black,
+    0.3px 0.3px 0 black;
+}
+.button-hero {
+  margin-top: 40px;
+}
+.button-hero .button {
+  margin: 7px;
+  color: white;
+  background: #252523;
+  border: 3px solid white;
+  font-weight: 900;
+}
+.button-hero .button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid black;
+  color: black;
+}
+.button-hero .button--style-two {
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-weight: 900;
+  border: 3px solid black;
+}
+.button-hero .button--style-two:hover {
+  background: #252523;
+  border: 3px solid white;
+  color: white;
+}
+
+@media screen and (max-width: 950px) {
+  .hero-container h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hero-container h1 {
+    font-size: 35px;
+  }
+
+  .hero-container h3 {
+    font-size: 25px;
+  }
+  .button-mobile {
+    display: block;
+    text-decoration: none;
+  }
+  .button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Open+Sans&family=Varela+Round&display=swap");
+
+* {
+  font-family: "Open Sans", Arial, sans-serif;
+  word-spacing: 2px;
+}
+.navbar {
+  background: linear-gradient(90deg, rgb(78, 77, 77) 0%, rgb(0, 1, 69) 70%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  position: sticky;
+  top: 0;
+  z-index: 800;
+}
+.navbar-logo span {
+  color: rgb(74, 74, 255);
+  background: white;
+  margin-right: 0.3rem;
+  padding-inline: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.navbar-logo {
+  color: white;
+  font-family: "Varela Round";
+  justify-self: start;
+  margin-left: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+
+.fa-earth-americas {
+  margin-left: 0.6rem;
+  margin-right: -2rem;
+  font-size: 2rem;
+  color: rgb(74, 74, 255);
+  background: white;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.nav-main-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 9px;
+  list-style: none;
+  width: 70vw;
+  justify-content: end;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.active > .nav-selection {
+  height: 75px;
+}
+.button-support {
+  margin-left: 2rem;
+}
+
+.nav-menu-links {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.nav-menu-links:hover {
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid rgb(130, 224, 255);
+}
+
+.fa-bars {
+  color: white;
+}
+
+.nav-menu-links-mobile {
+  display: none;
+}
+
+.main-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-main-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 300ms ease;
+    padding-bottom: 70px;
+  }
+
+  .nav-main-menu.active {
+    background: linear-gradient(90deg, rgb(78, 77, 77) 0%, rgb(0, 1, 69) 70%);
+    left: 0;
+    z-index: 1;
+  }
+
+  .nav-menu-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-menu-links:hover {
+    background-color: lightblue;
+    color: black;
+    border-radius: 0;
+    transition: none;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .main-menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+
+  .fa-square-xmark {
+    color: lightblue;
+    font-size: 2rem;
+  }
+
+  .nav-menu-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 1.9rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(130, 224, 255);
+    padding: 13px 19px;
+    border: 2px solid rgb(130, 224, 255);
+    transition: all 200ms ease-out;
+  }
+
+  .nav-menu-links-mobile:hover {
+    background: rgb(130, 224, 255);
+    color: #252525;
+    transition: 200ms;
+  }
+}

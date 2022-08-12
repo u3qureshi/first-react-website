@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Open+Sans&family=Varela+Round&display=swap");
+* {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+html {
+  background: url("../../../public/images/earth-space-bi.webp") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.under-construction-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "para para a a a" "image image a a a";
+}
+.under-construction-content {
+  grid-area: para;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: auto;
+  margin-left: 5em;
+  margin-top: 0.5em;
+}
+.under-construction-container img {
+  margin-left: 2em;
+  margin-top: 1em;
+  grid-area: image;
+  width: 20vw;
+  height: auto;
+  position: relative;
+}
+.under-construction-container h1 {
+  align-self: flex-start;
+  margin-bottom: 4.5em;
+  font-size: 2rem;
+}
+.under-construction-container h2 {
+  font-size: 2.7rem;
+}
+.under-construction-container p {
+  font-size: 1.3rem;
+}
