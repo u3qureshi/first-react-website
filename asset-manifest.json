@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-react-website/static/css/main.ea2d7ba8.css",
-    "main.js": "/first-react-website/static/js/main.418f5ac0.js",
+    "main.js": "/first-react-website/static/js/main.57661314.js",
     "static/media/small-boat.jpg": "/first-react-website/static/media/small-boat.923d3ee0a1e96a3320c6.jpg",
     "static/media/marine-fish-bi.jpg": "/first-react-website/static/media/marine-fish-bi.f9a922d8b0c1e4140363.jpg",
     "static/media/ocean-bi.jpg": "/first-react-website/static/media/ocean-bi.cb762ee60b1beb1ee1d0.jpg",
@@ -14,10 +14,10 @@
     "static/media/imagine-canada-logo.png": "/first-react-website/static/media/imagine-canada-logo.bc5c99cd924a3ed98f63.png",
     "index.html": "/first-react-website/index.html",
     "main.ea2d7ba8.css.map": "/first-react-website/static/css/main.ea2d7ba8.css.map",
-    "main.418f5ac0.js.map": "/first-react-website/static/js/main.418f5ac0.js.map"
+    "main.57661314.js.map": "/first-react-website/static/js/main.57661314.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2d7ba8.css",
-    "static/js/main.418f5ac0.js"
+    "static/js/main.57661314.js"
   ]
 }
